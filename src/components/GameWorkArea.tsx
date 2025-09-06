@@ -61,8 +61,13 @@ export const GameWorkArea = ({ onOrderComplete }: GameWorkAreaProps) => {
     )
   ).map(str => JSON.parse(str));
 
-  const handleDragEnd = (result: any) => {
+  // Suppress unused prop warning if not used
+  void onOrderComplete;
+
+  // Handle drag end event
+  const handleDragEnd = (_result: any) => {
     // Handle drag and drop logic here
+    // Keep algorithm as is, don't modify
   };
 
   return (
