@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { useState } from 'react';
 import styled from 'styled-components';
 
@@ -162,4 +161,5 @@ export const Login = ({ onLogin }: LoginProps) => {
     </LoginContainer>
   );
 };
+
 >>>>>>> e507c67116ac7f1f06dd0e198964ada230c859e6
